@@ -14,5 +14,5 @@ jobs:
       - name: 🚜 拉取最新代码
         uses: actions/checkout@v3 # 记得使用 v3
         with:
-          ref: 'main'
+          ref: 'gh-pages'
           repository: 'jaywcjlove/reference'
