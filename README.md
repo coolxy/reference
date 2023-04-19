@@ -136,6 +136,7 @@ Quick Reference
 [Cron](./docs/cron.md)<!--rehype:style=background: rgb(239 68 68);-->  
 [CMake](./docs/cmake.md)<!--rehype:style=background: rgb(92 107 192);&class=contributing-->  
 [Make](./docs/make.md)<!--rehype:style=background: rgb(99 99 99);&class=contributing-->  
+[Gdb](./docs/gdb.md)<!--rehype:style=background: rgb(215 89 62);-->  
 [Git](./docs/git.md)<!--rehype:style=background: rgb(215 89 62);-->  
 [Grep](./docs/grep.md)<!--rehype:style=background: rgb(16 185 129);-->  
 [Find](./docs/find.md)<!--rehype:style=background: rgb(16 185 129);-->  
@@ -226,8 +227,8 @@ Quick Reference
 <!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调">
   <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/>
 </a>
-<a href="https://github.com/fwqaaq" title="fw_qaq">
-  <img src="https://avatars.githubusercontent.com/u/82551626?v=4" width="42;" alt="fw_qaq"/>
+<a href="https://github.com/fwqaaq" title="fwqaaq">
+  <img src="https://avatars.githubusercontent.com/u/82551626?v=4" width="42;" alt="fwqaaq"/>
 </a>
 <a href="https://github.com/mofelee" title="mofelee">
   <img src="https://avatars.githubusercontent.com/u/5069410?v=4" width="42;" alt="mofelee"/>
@@ -252,6 +253,9 @@ Quick Reference
 </a>
 <a href="https://github.com/chaos-cn" title="chaos">
   <img src="https://avatars.githubusercontent.com/u/71205599?v=4" width="42;" alt="chaos"/>
+</a>
+<a href="https://github.com/qyl27" title="秋 雨落">
+  <img src="https://avatars.githubusercontent.com/u/53731501?v=4" width="42;" alt="秋 雨落"/>
 </a>
 <a href="https://github.com/heStudio-Network" title="醉、倾城">
   <img src="https://avatars.githubusercontent.com/u/119711513?v=4" width="42;" alt="醉、倾城"/>
@@ -279,9 +283,6 @@ Quick Reference
 </a>
 <a href="https://github.com/Country-If" title="Maylon">
   <img src="https://avatars.githubusercontent.com/u/62837275?v=4" width="42;" alt="Maylon"/>
-</a>
-<a href="https://github.com/qyl27" title="秋 雨落">
-  <img src="https://avatars.githubusercontent.com/u/53731501?v=4" width="42;" alt="秋 雨落"/>
 </a>
 <a href="https://github.com/13812700839" title="花殇">
   <img src="https://avatars.githubusercontent.com/u/58072506?v=4" width="42;" alt="花殇"/>
@@ -367,6 +368,9 @@ Quick Reference
 <a href="https://github.com/hi-liyan" title="Yan Li">
   <img src="https://avatars.githubusercontent.com/u/40056492?v=4" width="42;" alt="Yan Li"/>
 </a>
+<a href="https://github.com/Yo-gurts" title="Yogurt">
+  <img src="https://avatars.githubusercontent.com/u/44612841?v=4" width="42;" alt="Yogurt"/>
+</a>
 <a href="https://github.com/dfshizhiqiang" title="Zech">
   <img src="https://avatars.githubusercontent.com/u/7030019?v=4" width="42;" alt="Zech"/>
 </a>
@@ -400,8 +404,8 @@ Quick Reference
 <a href="https://github.com/gi-b716" title="gi-b716">
   <img src="https://avatars.githubusercontent.com/u/78394473?v=4" width="42;" alt="gi-b716"/>
 </a>
-<a href="https://github.com/godotc" title="godotc">
-  <img src="https://avatars.githubusercontent.com/u/79260851?v=4" width="42;" alt="godotc"/>
+<a href="https://github.com/godotc" title="godot42">
+  <img src="https://avatars.githubusercontent.com/u/79260851?v=4" width="42;" alt="godot42"/>
 </a>
 <a href="https://github.com/greyhao" title="greyhao">
   <img src="https://avatars.githubusercontent.com/u/107107440?v=4" width="42;" alt="greyhao"/>
