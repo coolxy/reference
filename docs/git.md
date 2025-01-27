@@ -167,6 +167,12 @@ $ git checkout -b new_branch
 $ git branch -d my_branch
 ```
 
+删除本地存在远程不存在的分支
+
+```shell
+$ git remote prune origin
+```
+
 将分支 `A` 合并到分支 `B`
 
 ```shell
@@ -561,6 +567,35 @@ $ git fetch --all && git reset --hard origin/master
 
 ```bash
 $ git log Branch1 ^Branch2
+```
+
+### git 迁移
+<!--rehype:wrap-class=col-span-2-->
+
+- 从原地址克隆一份裸版本库
+
+```bash
+$ git clone --bare https://github.com/username/project.git
+```
+
+- 然后新建一个地址，比如一下
+
+```bash
+$ https://gitee.com/username/newproject.git
+```
+
+- 进入project.git这个全裸版本库，以镜像推送的方式上传代码到newproject上。
+
+```
+$ cd project.git
+
+$ git push --mirror https://gitee.com/username/newproject.git
+```
+
+- 使用新地址，直接 Clone 到本地就可以了。
+
+```
+$ git clone https://gitee.com/username/newproject.git
 ```
 
 Git Submodule 子模块
@@ -1101,6 +1136,7 @@ Host github.com
 <!--rehype:className=wrap-text-->
 
 ### Fork仓库同步上游仓库
+<!--rehype:wrap-class=col-span-2-->
 
 - 设置上游仓库
 
