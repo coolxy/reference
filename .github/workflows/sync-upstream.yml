@@ -1,0 +1,25 @@
+name: Sync Fork with Upstream
+on:
+  schedule:
+    - cron: '6 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Sync Upstream
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+        with:
+          upstream_sync_repo: jaywcjlove/reference
+          upstream_sync_branch: gh-pages
+          target_sync_branch: gh-pages
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
